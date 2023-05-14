@@ -1,0 +1,40 @@
+body{
+    background-color: orange;
+}
+
+.logn{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: #4D4D4D; 
+    text-align: center;
+    border-radius: 24px;
+}
+.logn h2{
+    text-align: center;
+    color: white;
+}
+.logn input[type="email"], 
+.logn input[type="password"]{
+    text-align: center;
+    margin: 1px;
+    transition: 0.25s;
+}
+.logn input[type="submit"]{
+    width: 100px;
+    border: 2px solid white;
+    background-color: White;
+    border-radius: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    outline: none;
+}
+.logn input[type="submit"]:hover{
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    width: 100px;
+}
